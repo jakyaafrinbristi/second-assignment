@@ -119,4 +119,38 @@ nav li {
 .text {
     color: #FF900E;
 }
+
 /* second-section-style */
+.features {
+    display: flex;
+    gap: 10px;
+
+}
+
+.feature-info {
+    margin-left: 120px;
+}
+
+.feature-description {
+    color: #727272;
+    font-weight: 400;
+    font-size: 16px;
+}
+
+
+.btn2 {
+    margin-top: -50px;
+    margin-left: -50px;
+    
+    Width:258px;
+    Height:109px;
+    font-weight: 500;
+    font-size: 30px;
+    background: #FF900E;
+    border-radius: 8px;
+    color: #FFFFFF;
+    border: 0 solid;
+}
+.title{
+    padding-left: 20px;
+}
