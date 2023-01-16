@@ -4,7 +4,7 @@
 
 /* common styles */
 body {
-    margin: 0;
+    margin top:-50px;
     font-family: 'Work Sans', sans-serif;
 }
 
@@ -73,9 +73,17 @@ nav li {
     margin-top: 5px;
     border: 0 solid;
 }
-
-.banner-img {
+.banner-img{
     border-radius: 8px;
+    width:70%;
+    padding-bottom: 30px;
+    justify-content: center;
+}
+
+.banner-img img{
+    width: 100%;
+    margin-left: 200px;
+    
 }
 
 /* main section style */
@@ -126,6 +134,9 @@ nav li {
     gap: 10px;
 
 }
+.feature-img img{
+    width: 70%;
+}
 
 .feature-info {
     margin-left: 120px;
@@ -141,9 +152,9 @@ nav li {
 .btn2 {
     margin-top: -50px;
     margin-left: -50px;
-    
-    Width:258px;
-    Height:109px;
+
+    Width: 258px;
+    Height: 109px;
     font-weight: 500;
     font-size: 30px;
     background: #FF900E;
@@ -151,33 +162,39 @@ nav li {
     color: #FFFFFF;
     border: 0 solid;
 }
-.title{
+
+.title {
     padding-left: 20px;
 }
+
 /* third-section-styles */
 .skills-container {
     display: flex;
     gap: 24px;
     justify-content: center;
 }
-.section-title{
+
+.section-title {
     font-weight: 500;
     font-size: 45px;
     color: #131313;
     margin-left: 120px;
 
 }
-.section-description{
+
+.section-description {
     font-weight: 400;
     font-size: 16px;
     color: #727272;
-    margin-left: 120px;
-    margin-top: 20px;
+    padding: 0 120px;
+    margin-bottom: 20px;
+    margin-top: 30px;
 }
 
 .skill {
     background: #FFFFFF;
-    
+    border: 1px solid #FF900E;
+
     border-radius: 5px;
     padding: 30px;
     box-sizing: border-box;
@@ -192,9 +209,44 @@ nav li {
 }
 
 .skill-description {
+    
     font-weight: 400;
     font-size: 16px;
     color: #757575;
 
 
+}
+
+/* fourth section styles */
+.fourth-title {
+    margin-left: 500px;
+    padding-left: 50px;
+    font-weight: 700;
+    font-size: 45px;
+    margin-bottom: 10px;
+}
+
+.fourth-description {
+    padding-left: 300px;
+    font-weight: 400;
+    font-size: 16px;
+}
+
+.skills-container{
+    display: flex;
+    gap: 60px;
+
+
+}
+
+/* footer styles */
+.footer-content {
+    background: #FFF4E7;
+    border-radius: 8px;
+    color: #424242;
+    text-align: center;
+    
+}
+.footer-des{
+padding: 50px;
 }
