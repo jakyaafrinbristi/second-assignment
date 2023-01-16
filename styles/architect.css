@@ -4,15 +4,15 @@
 
 /* common styles */
 body {
-    
+    margin: 0;
     font-family: 'Work Sans', sans-serif;
 }
 
 /* Header and navigation styles */
 .header {
     background: rgba(255, 144, 14, 0.1);
-    
-   
+
+
 }
 
 nav {
@@ -75,6 +75,48 @@ nav li {
 }
 
 .banner-img {
-    width: 100%;
     border-radius: 8px;
 }
+
+/* main section style */
+/* first section styles */
+.container {
+    display: flex;
+    /* margin-left: 200px;
+    margin-top: 30px; */
+    margin: 100px;
+
+}
+
+.gruops {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 15px;
+}
+
+.gruop-details {
+    margin-top: 150px;
+    margin-left: 50px;
+}
+
+.gruop-description {
+    padding: 5px;
+    font-weight: 400;
+    font-size: 16px;
+    color: #727272;
+
+}
+
+.gruop-title {
+    font-weight: 500;
+    font-size: 45px;
+}
+
+.list {
+    color: #727272;
+}
+
+.text {
+    color: #FF900E;
+}
+/* second-section-style */
